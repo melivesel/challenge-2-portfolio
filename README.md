@@ -8,7 +8,7 @@ This is a portfolio of my work as a web developer. The page has internal links a
 ## Usage
 
 This can be used to get to know more about me and gain access to examples of my work. It can also be used to get in contact with me. 
-url: https://melivesel.github.io/challenge1-accessiblity/
+url: (https://melivesel.github.io/challenge-2-portfolio/)
 
     
 ![alt text](./assets/images/screenshot.png)
