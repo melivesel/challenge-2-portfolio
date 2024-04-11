@@ -1,0 +1,98 @@
+:root {
+    --dark: #135e17;
+    --light: azure;
+  }
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+img {
+    width: 100%;
+    max-height: 800px;
+
+}
+
+header {
+    justify-content: space-between;
+    background-color:var(--dark);
+    padding: 20px 0 20px 0;
+    text-shadow: black 2px 4px 2px;
+
+}
+
+h1 {
+    float: left;
+    color: var(--light);
+    position:relative;
+    top: 40px;
+    font-size: 2rem;
+}
+
+nav {
+    float: right;
+    color: var(--light);
+    position: relative;
+    top: -40px;
+
+}
+
+a {
+    color: var(--light);
+}
+
+main {
+    background-color: var(--dark);
+}
+
+.portfolio {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.project1 {
+    width: 100%; 
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+  }
+
+  #mpimage {
+    width: 300px;
+    height: 400px;
+    margin: 25px;
+  }
+  .other-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    flex: 2, 0, 200px;
+
+  }
+  
+  .project-image {
+    height: 250px;
+    padding: 30px;
+  }
+
+.card-width {
+    max-width: 300px;
+}
+footer{
+    background-color: var(--dark);
+}
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+
+}
